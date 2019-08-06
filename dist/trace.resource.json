@@ -1,0 +1,212 @@
+{
+  "B70661D7B501585D483E9919A55CB5C3": {
+    "requestId": "B70661D7B501585D483E9919A55CB5C3",
+    "start": {
+      "ts": 1214557304577,
+      "name": "ResourceSendRequest",
+      "url": "https://open-h5.fdzq.com/saxo/",
+      "requestMethod": "GET"
+    },
+    "end": {
+      "ts": 1214557384363,
+      "name": "ResourceFinish",
+      "encodedDataLength": 7349,
+      "decodedBodyLength": 33086
+    }
+  },
+  "1000025156.2": {
+    "requestId": "1000025156.2",
+    "start": {
+      "ts": 1214557379974,
+      "name": "ResourceSendRequest",
+      "url": "https://open-h5.fdzq.com/saxo/static/cache/js/manifest.0078db.js",
+      "requestMethod": "GET"
+    },
+    "end": {
+      "ts": 1214557590674,
+      "name": "ResourceFinish",
+      "encodedDataLength": 1476,
+      "decodedBodyLength": 1465
+    }
+  },
+  "1000025156.3": {
+    "requestId": "1000025156.3",
+    "start": {
+      "ts": 1214557381786,
+      "name": "ResourceSendRequest",
+      "url": "https://open-h5.fdzq.com/saxo/static/cache/js/vendor.5efa57.js",
+      "requestMethod": "GET"
+    },
+    "end": {
+      "ts": 1214558533282,
+      "name": "ResourceFinish",
+      "encodedDataLength": 48858,
+      "decodedBodyLength": 138330
+    }
+  },
+  "1000025156.4": {
+    "requestId": "1000025156.4",
+    "start": {
+      "ts": 1214557382820,
+      "name": "ResourceSendRequest",
+      "url": "https://open-h5.fdzq.com/saxo/static/cache/js/app.72a170.js",
+      "requestMethod": "GET"
+    },
+    "end": {
+      "ts": 1214558443468,
+      "name": "ResourceFinish",
+      "encodedDataLength": 38534,
+      "decodedBodyLength": 113776
+    }
+  },
+  "1000025156.9": {
+    "requestId": "1000025156.9",
+    "start": {
+      "ts": 1214558891263,
+      "name": "ResourceSendRequest",
+      "url": "https://static.fraudmetrix.cn/v2/fm.js?ver=0.1&t=434743",
+      "requestMethod": "GET"
+    },
+    "end": {
+      "ts": 1214561688505,
+      "name": "ResourceFinish",
+      "encodedDataLength": 48836,
+      "decodedBodyLength": 192176
+    }
+  },
+  "1000025156.10": {
+    "requestId": "1000025156.10",
+    "start": {
+      "ts": 1214558999403,
+      "name": "ResourceSendRequest",
+      "url": "https://open-h5.fdzq.com/saxo/static/cache/img/title_01.af5f2a3.png",
+      "requestMethod": "GET"
+    },
+    "end": {
+      "ts": 1214559795467,
+      "name": "ResourceFinish",
+      "encodedDataLength": 9094,
+      "decodedBodyLength": 8501
+    }
+  },
+  "1000025156.11": {
+    "requestId": "1000025156.11",
+    "start": {
+      "ts": 1214559000571,
+      "name": "ResourceSendRequest",
+      "url": "https://open-h5.fdzq.com/saxo/static/cache/img/banner_04.e4ceea5.png",
+      "requestMethod": "GET"
+    },
+    "end": {
+      "ts": 1214563540574,
+      "name": "ResourceFinish",
+      "encodedDataLength": 71088,
+      "decodedBodyLength": 70568
+    }
+  },
+  "1000025156.12": {
+    "requestId": "1000025156.12",
+    "start": {
+      "ts": 1214559001287,
+      "name": "ResourceSendRequest",
+      "url": "https://open-h5.fdzq.com/saxo/static/cache/img/banner_01.6ae4e8d.png",
+      "requestMethod": "GET"
+    },
+    "end": {
+      "ts": 1214563535735,
+      "name": "ResourceFinish",
+      "encodedDataLength": 78936,
+      "decodedBodyLength": 78399
+    }
+  },
+  "1000025156.13": {
+    "requestId": "1000025156.13",
+    "start": {
+      "ts": 1214559001907,
+      "name": "ResourceSendRequest",
+      "url": "https://open-h5.fdzq.com/saxo/static/cache/img/banner_02.78b18f6.png",
+      "requestMethod": "GET"
+    },
+    "end": {
+      "ts": 1214563530350,
+      "name": "ResourceFinish",
+      "encodedDataLength": 58362,
+      "decodedBodyLength": 57862
+    }
+  },
+  "1000025156.14": {
+    "requestId": "1000025156.14",
+    "start": {
+      "ts": 1214559003082,
+      "name": "ResourceSendRequest",
+      "url": "https://open-h5.fdzq.com/saxo/static/cache/img/banner_03.dd4562f.png",
+      "requestMethod": "GET"
+    },
+    "end": {
+      "ts": 1214563545376,
+      "name": "ResourceFinish",
+      "encodedDataLength": 75796,
+      "decodedBodyLength": 75257
+    }
+  },
+  "1000025156.15": {
+    "requestId": "1000025156.15",
+    "start": {
+      "ts": 1214559005311,
+      "name": "ResourceSendRequest",
+      "url": "https://open-h5.fdzq.com/saxo/static/cache/img/title_02.9d09867.png",
+      "requestMethod": "GET"
+    },
+    "end": {
+      "ts": 1214559765507,
+      "name": "ResourceFinish",
+      "encodedDataLength": 5563,
+      "decodedBodyLength": 5154
+    }
+  },
+  "1000025156.8": {
+    "requestId": "1000025156.8",
+    "start": {
+      "ts": 1214559049572,
+      "name": "ResourceSendRequest",
+      "url": "https://open-h5.fdzq.com/saxo/static/cache/fonts/iconfont.18d2fea.ttf",
+      "requestMethod": "GET"
+    },
+    "end": {
+      "ts": 1214560741373,
+      "name": "ResourceFinish",
+      "encodedDataLength": 10259,
+      "decodedBodyLength": 15756
+    }
+  },
+  "1000025156.16": {
+    "requestId": "1000025156.16",
+    "start": {
+      "ts": 1214559253398,
+      "name": "ResourceSendRequest",
+      "url": "https://fp.fraudmetrix.cn/fp/clear.png?partnerCode=yintianxia&appName=fangdekh_H5&tokenId=yintianxia-1565076126087-25f3cf3505403",
+      "requestMethod": "GET"
+    },
+    "end": {
+      "ts": 1214559646430,
+      "name": "ResourceFinish",
+      "encodedDataLength": 411,
+      "decodedBodyLength": 81
+    }
+  },
+  "1000025156.17": {
+    "requestId": "1000025156.17",
+    "start": {
+      "ts": 1214559274695,
+      "name": "ResourceSendRequest",
+      "url": "https://apitrade.fdzq.com/user/login/get_region_list?token=&broker=FDSaxo&source=&empId=",
+      "requestMethod": "GET"
+    },
+    "end": {
+      "ts": 1214560737541,
+      "name": "ResourceFinish",
+      "encodedDataLength": 14220,
+      "decodedBodyLength": 13448
+    }
+  }
+}

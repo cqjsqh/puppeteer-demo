@@ -1,0 +1,17 @@
+{
+  "name": "puppeteer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "screenshot": "node screenshot.js",
+    "pdf": "node pdf.js",
+    "tracking": "node tracking.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {},
+  "dependencies": {
+    "puppeteer": "^1.19.0"
+  }
+}
