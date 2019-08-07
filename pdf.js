@@ -11,17 +11,17 @@ const pool  = puppeteerPool({ // 全局只应该被初始化一次
 });
 
 
-async function createPdf(url) {
+async function createPdf() {
   let start = Date.now();
   
   //const browser = await puppeteer.launch();
   //const page = await browser.newPage();
   const page = await pool.use(async instance => await instance.newPage());
   
-  await page.goto(url);
+  await page.goto("https://www.baidu.com");
   await page.waitForSelector('body');
   
-  await page.pdf({                     // 测试比wkhtmltopdf慢  phantom
+  await page.pdf({                     // 测试比wkhtmltopdf慢  phantomjs
     path: 'dist/baidu.pdf',
     format: 'A4',
     printBackground:  true,
@@ -33,4 +33,4 @@ async function createPdf(url) {
 }
 
 
-createPdf("https://www.baidu.com");
+setInterval(createPdf, 8000);

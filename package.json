@@ -6,13 +6,17 @@
   "scripts": {
     "screenshot": "node screenshot.js",
     "pdf": "node pdf.js",
-    "tracking": "node tracking.js"
+    "tracking": "node tracking.js",
+    "phantomjs.pdf": "node phantomjs.pdf.js",
+    "wkhtmltopdf.pdf": "node wkhtmltopdf.pdf.js"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {},
   "dependencies": {
     "generic-pool": "^3.7.1",
-    "puppeteer": "^1.19.0"
+    "phantom-pool": "^1.2.2",
+    "puppeteer": "^1.19.0",
+    "wkhtmltopdf": "^0.3.4"
   }
 }
