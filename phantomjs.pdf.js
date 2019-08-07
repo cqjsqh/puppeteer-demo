@@ -17,9 +17,11 @@ async function createPdf() {
   
   const page = await pool.use(async instance => await instance.createPage());
   
-  await page.open("https://www.baidu.com")
-  
-  await page.render('dist/baidu.pdf')
+  const status = await page.open("https://www.baidu.com")
+
+  if (status === 'success') {
+    await page.render('dist/baidu.pdf')
+  }
   
   console.log(`pdf: ${Date.now() - start} ms`);
 }
