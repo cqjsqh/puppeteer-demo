@@ -1,19 +1,36 @@
-const puppeteer = require('puppeteer');
+//const puppeteer = require('puppeteer');
+const puppeteerPool = require('./puppeteer-pool');
 
-(async () => {
-  const browser = await puppeteer.launch({ headless: true });
+const pool  = puppeteerPool({ // 全局只应该被初始化一次
+  puppeteerArgs: {
+    ignoreHTTPSErrors: true,
+    headless: true, // 是否启用无头模式页面
+    timeout: 0,
+    pipe: true, // 不使用 websocket
+  }
+});
+
+
+async function createPdf(url) {
+  let start = Date.now();
   
-  const page = await browser.newPage();
-  //await page.setViewport({width:1920, height:1080});
-  await page.goto("https://www.baidu.com");
+  //const browser = await puppeteer.launch();
+  //const page = await browser.newPage();
+  const page = await pool.use(async instance => await instance.newPage());
   
+  await page.goto(url);
   await page.waitForSelector('body');
-  await page.pdf({
+  
+  await page.pdf({                     // 测试比wkhtmltopdf慢
     path: 'dist/baidu.pdf',
     format: 'A4',
     printBackground:  true,
     
   });
-  await browser.close();
-})();
-// 测试比wkhtmltopdf慢
+  
+  console.log(`pdf: ${Date.now() - start} ms`);
+  page.close();
+}
+
+
+createPdf("https://www.baidu.com");

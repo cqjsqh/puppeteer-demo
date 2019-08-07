@@ -6,6 +6,7 @@ const iPhone = devices["iPhone 8"];
   const browser = await puppeteer.launch({ headless: true });
   
   const page = await browser.newPage();
+  //await page.setViewport({width:1920, height:1080});
   await page.emulate(iPhone);
   await page.goto("https://3gqq.qq.com", {waitUntil: ['load', 'networkidle0']});
   
