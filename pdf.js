@@ -21,7 +21,7 @@ async function createPdf(url) {
   await page.goto(url);
   await page.waitForSelector('body');
   
-  await page.pdf({                     // 测试比wkhtmltopdf慢
+  await page.pdf({                     // 测试比wkhtmltopdf慢  phantom
     path: 'dist/baidu.pdf',
     format: 'A4',
     printBackground:  true,
