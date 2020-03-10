@@ -1,7 +1,7 @@
 const puppeteerPool = require('./puppeteer-pool');
 const devices = require('puppeteer/DeviceDescriptors');
 
-const iPhone = devices["iPhone 8"];
+const device = devices["iPhone 8"];
 const pool  = puppeteerPool({ // 全局只应该被初始化一次
   puppeteerArgs: {
     ignoreHTTPSErrors: true,
@@ -15,7 +15,7 @@ const pool  = puppeteerPool({ // 全局只应该被初始化一次
 module.exports = async (url) => {
   const page = await pool.use(async instance => await instance.newPage());
 
-  await page.emulate(iPhone);
+  await page.emulate(device);
   await page.goto(url, {waitUntil: ['load', 'networkidle0']});
 
   await page.screenshot({
